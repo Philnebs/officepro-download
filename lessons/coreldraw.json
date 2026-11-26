@@ -1,0 +1,690 @@
+[
+ {
+  "title": "Meet the CorelDRAW screen",
+  "steps": [
+   {
+    "t": "This is the CorelDRAW window. The title bar shows your document name, which starts as Graphic1.",
+    "h": [
+     100.0,
+     1.0,
+     200.0,
+     16.0
+    ]
+   },
+   {
+    "t": "The menu bar holds commands in groups: File, Edit, View, Object, Text and more.",
+    "h": [
+     0.0,
+     18.0,
+     320.0,
+     14.0
+    ]
+   },
+   {
+    "t": "The standard toolbar has quick buttons for New, Open, Save, Print, Undo and Export.",
+    "h": [
+     4.0,
+     33.0,
+     142.0,
+     14.0
+    ]
+   },
+   {
+    "t": "The property bar changes with whatever you select. It shows size, position and settings.",
+    "h": [
+     0.0,
+     46.0,
+     260.0,
+     16.0
+    ]
+   },
+   {
+    "t": "The toolbox on the left holds your drawing tools: Pick, Shape, Zoom, Rectangle, Ellipse, Text and more.",
+    "h": [
+     0.0,
+     62.0,
+     22.0,
+     178.0
+    ]
+   },
+   {
+    "t": "The white rectangle is your drawing page. You can also draw on the gray area around it.",
+    "h": [
+     148.0,
+     74.0,
+     106.0,
+     150.0
+    ]
+   },
+   {
+    "t": "The color palette on the right lets you fill objects with color.",
+    "h": [
+     380.0,
+     62.0,
+     20.0,
+     178.0
+    ]
+   },
+   {
+    "t": "The status bar tells you what is selected and gives you hints.",
+    "h": [
+     0.0,
+     240.0,
+     300.0,
+     20.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Start a new document",
+  "steps": [
+   {
+    "t": "Click File on the menu bar.",
+    "h": [
+     4.0,
+     18.0,
+     24.0,
+     14.0
+    ]
+   },
+   {
+    "t": "Click New. You can also click the New icon on the toolbar.",
+    "h": [
+     6.0,
+     34.0,
+     12.0,
+     12.0
+    ]
+   },
+   {
+    "t": "Choose a page size such as A4 and click OK. The property bar shows your page settings.",
+    "h": [
+     0.0,
+     46.0,
+     200.0,
+     16.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Draw a rectangle",
+  "steps": [
+   {
+    "t": "Click the Rectangle tool in the toolbox.",
+    "h": [
+     3.0,
+     154.0,
+     16.0,
+     16.0
+    ],
+    "cells": {
+     "tool": "5"
+    }
+   },
+   {
+    "t": "Drag on the page from one corner to the opposite corner.",
+    "h": [
+     160.0,
+     90.0,
+     60.0,
+     40.0
+    ],
+    "cells": {
+     "tool": "5",
+     "rect": "none"
+    }
+   },
+   {
+    "t": "Hold Ctrl while you drag to draw a perfect square.",
+    "h": [
+     160.0,
+     90.0,
+     60.0,
+     40.0
+    ],
+    "cells": {
+     "tool": "5",
+     "rect": "none"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Draw an ellipse and a circle",
+  "steps": [
+   {
+    "t": "Click the Ellipse tool in the toolbox.",
+    "h": [
+     3.0,
+     172.0,
+     16.0,
+     16.0
+    ],
+    "cells": {
+     "tool": "6",
+     "rect": "none"
+    }
+   },
+   {
+    "t": "Drag on the page to draw an ellipse.",
+    "h": [
+     176.0,
+     142.0,
+     56.0,
+     44.0
+    ],
+    "cells": {
+     "tool": "6",
+     "rect": "none",
+     "ell": "none"
+    }
+   },
+   {
+    "t": "Hold Ctrl while you drag to draw a perfect circle.",
+    "h": [
+     176.0,
+     142.0,
+     56.0,
+     44.0
+    ],
+    "cells": {
+     "tool": "6",
+     "rect": "none",
+     "ell": "none"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Select and move objects",
+  "steps": [
+   {
+    "t": "Click the Pick tool. It is the arrow at the top of the toolbox.",
+    "h": [
+     3.0,
+     64.0,
+     16.0,
+     16.0
+    ],
+    "cells": {
+     "rect": "none",
+     "ell": "none"
+    }
+   },
+   {
+    "t": "Click a shape. Small squares called handles appear around it.",
+    "h": [
+     160.0,
+     90.0,
+     60.0,
+     40.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "none",
+     "ell": "none",
+     "status": "Rectangle on Layer 1"
+    }
+   },
+   {
+    "t": "Drag the shape to move it, or press the arrow keys to nudge it a little.",
+    "h": [
+     160.0,
+     90.0,
+     60.0,
+     40.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "none",
+     "ell": "none",
+     "status": "Rectangle on Layer 1"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Resize and rotate",
+  "steps": [
+   {
+    "t": "Drag a corner handle to make the shape bigger or smaller. Hold Shift to resize from the center.",
+    "h": [
+     214.0,
+     124.0,
+     12.0,
+     12.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "none",
+     "prop": "X 190|Y 148|W 60|H 40"
+    }
+   },
+   {
+    "t": "Or type exact numbers in the Width and Height boxes on the property bar.",
+    "h": [
+     102.0,
+     47.0,
+     96.0,
+     14.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "none",
+     "prop": "X 190|Y 148|W 60|H 40"
+    }
+   },
+   {
+    "t": "Click the shape a second time to get rotate handles, then drag a corner to turn it.",
+    "h": [
+     214.0,
+     124.0,
+     12.0,
+     12.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "none",
+     "prop": "X 190|Y 148|W 60|H 40"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Fill with color",
+  "steps": [
+   {
+    "t": "Click the shape with the Pick tool.",
+    "h": [
+     160.0,
+     90.0,
+     60.0,
+     40.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "none"
+    }
+   },
+   {
+    "t": "Click a color in the palette. The shape fills with that color.",
+    "h": [
+     381.0,
+     78.0,
+     16.0,
+     12.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "FFE53935"
+    }
+   },
+   {
+    "t": "Click the X at the top of the palette to remove the fill.",
+    "h": [
+     381.0,
+     64.0,
+     16.0,
+     12.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "none"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Change the outline",
+  "steps": [
+   {
+    "t": "Right-click a color in the palette to color the outline instead of the fill.",
+    "h": [
+     381.0,
+     78.0,
+     16.0,
+     12.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "FF1E88E5"
+    }
+   },
+   {
+    "t": "Choose the outline thickness on the property bar.",
+    "h": [
+     198.0,
+     47.0,
+     44.0,
+     14.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "FF1E88E5",
+     "prop": "X 190|Y 148|W 60|H 40|Outline 3 pt"
+    }
+   },
+   {
+    "t": "A thicker outline now shows around the shape.",
+    "h": [
+     160.0,
+     90.0,
+     60.0,
+     40.0
+    ],
+    "cel": "rect",
+    "cells": {
+     "rect": "FF1E88E5",
+     "out": "thick"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Add text",
+  "steps": [
+   {
+    "t": "Click the Text tool. It is the letter A in the toolbox.",
+    "h": [
+     3.0,
+     190.0,
+     16.0,
+     16.0
+    ],
+    "cells": {
+     "tool": "7"
+    }
+   },
+   {
+    "t": "Click on the page where you want the text, then type.",
+    "h": [
+     154.0,
+     198.0,
+     70.0,
+     18.0
+    ],
+    "cells": {
+     "tool": "7",
+     "txt": "My Poster"
+    }
+   },
+   {
+    "t": "Click the Pick tool to finish typing.",
+    "h": [
+     3.0,
+     64.0,
+     16.0,
+     16.0
+    ],
+    "cel": "txt",
+    "cells": {
+     "txt": "My Poster"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Format text",
+  "steps": [
+   {
+    "t": "Click the text with the Pick tool.",
+    "h": [
+     154.0,
+     198.0,
+     70.0,
+     18.0
+    ],
+    "cel": "txt",
+    "cells": {
+     "txt": "My Poster"
+    }
+   },
+   {
+    "t": "Use the property bar to choose a font and a size.",
+    "h": [
+     6.0,
+     47.0,
+     96.0,
+     14.0
+    ],
+    "cel": "txt",
+    "cells": {
+     "txt": "My Poster",
+     "prop": "Arial|24 pt|B|I|U"
+    }
+   },
+   {
+    "t": "Click B for bold, I for italic and U for underline.",
+    "h": [
+     102.0,
+     47.0,
+     140.0,
+     14.0
+    ],
+    "cel": "txt",
+    "cells": {
+     "txt": "My Poster",
+     "prop": "Arial|24 pt|B|I|U"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Zoom in and out",
+  "steps": [
+   {
+    "t": "Click the Zoom tool. It looks like a magnifying glass.",
+    "h": [
+     3.0,
+     118.0,
+     16.0,
+     16.0
+    ],
+    "cells": {
+     "tool": "3",
+     "rect": "none",
+     "ell": "none"
+    }
+   },
+   {
+    "t": "Click on the page to zoom in, or right-click to zoom out.",
+    "h": [
+     148.0,
+     74.0,
+     106.0,
+     150.0
+    ],
+    "cells": {
+     "tool": "3",
+     "rect": "none",
+     "ell": "none"
+    }
+   },
+   {
+    "t": "Press F4 to fit everything on the screen. The mouse wheel also zooms.",
+    "h": [
+     30.0,
+     70.0,
+     350.0,
+     158.0
+    ],
+    "cells": {
+     "rect": "none",
+     "ell": "none"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Draw freehand lines",
+  "steps": [
+   {
+    "t": "Click the Freehand tool.",
+    "h": [
+     3.0,
+     136.0,
+     16.0,
+     16.0
+    ],
+    "cells": {
+     "tool": "4"
+    }
+   },
+   {
+    "t": "Drag on the page to draw a line, like drawing with a pencil.",
+    "h": [
+     150.0,
+     158.0,
+     100.0,
+     46.0
+    ],
+    "cells": {
+     "tool": "4",
+     "line": "1"
+    }
+   },
+   {
+    "t": "To draw a straight line, click once, then click somewhere else.",
+    "h": [
+     150.0,
+     158.0,
+     100.0,
+     46.0
+    ],
+    "cells": {
+     "tool": "4",
+     "line": "1"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Reshape with the Shape tool",
+  "steps": [
+   {
+    "t": "Click the Shape tool. It edits the points of a line or shape.",
+    "h": [
+     3.0,
+     82.0,
+     16.0,
+     16.0
+    ],
+    "cells": {
+     "tool": "1",
+     "line": "1"
+    }
+   },
+   {
+    "t": "Click the line. Small squares called nodes appear along it.",
+    "h": [
+     150.0,
+     158.0,
+     100.0,
+     46.0
+    ],
+    "cel": "line",
+    "cells": {
+     "tool": "1",
+     "line": "1"
+    }
+   },
+   {
+    "t": "Drag a node to reshape the curve.",
+    "h": [
+     150.0,
+     158.0,
+     100.0,
+     46.0
+    ],
+    "cel": "line",
+    "cells": {
+     "tool": "1",
+     "line": "1"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Group objects",
+  "steps": [
+   {
+    "t": "Click the first shape, then hold Shift and click the others to select them all.",
+    "h": [
+     160.0,
+     90.0,
+     72.0,
+     96.0
+    ],
+    "cel": "rect+ell",
+    "cells": {
+     "rect": "FFE53935",
+     "ell": "FF1E88E5",
+     "status": "2 objects selected"
+    }
+   },
+   {
+    "t": "Click the Object menu and choose Group. You can also press Ctrl + G.",
+    "h": [
+     102.0,
+     18.0,
+     28.0,
+     14.0
+    ],
+    "cel": "rect+ell",
+    "cells": {
+     "rect": "FFE53935",
+     "ell": "FF1E88E5"
+    }
+   },
+   {
+    "t": "Now they move and resize together. Press Ctrl + U to ungroup them.",
+    "h": [
+     160.0,
+     90.0,
+     72.0,
+     96.0
+    ],
+    "cel": "rect+ell",
+    "cells": {
+     "rect": "FFE53935",
+     "ell": "FF1E88E5",
+     "status": "Group of 2 objects on Layer 1"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Save and export",
+  "steps": [
+   {
+    "t": "Click the Save icon, or press Ctrl + S.",
+    "h": [
+     38.0,
+     34.0,
+     12.0,
+     12.0
+    ]
+   },
+   {
+    "t": "Type a name, keep the CDR format and click Save. A CDR file can be edited again later.",
+    "h": [
+     100.0,
+     1.0,
+     200.0,
+     16.0
+    ]
+   },
+   {
+    "t": "To share your design, click Export and choose JPG, PNG or PDF.",
+    "h": [
+     130.0,
+     34.0,
+     12.0,
+     12.0
+    ]
+   }
+  ]
+ }
+]
