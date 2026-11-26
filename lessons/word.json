@@ -1,0 +1,718 @@
+[
+ {
+  "title": "Meet the Word screen",
+  "steps": [
+   {
+    "t": "This is the Word screen. The title bar at the top shows your document name.",
+    "h": [
+     100.0,
+     2.0,
+     200.0,
+     16.0
+    ]
+   },
+   {
+    "t": "Tap the Save icon to save your work. On a computer you can also press Ctrl + S.",
+    "h": [
+     5.0,
+     3.0,
+     16.0,
+     15.0
+    ]
+   },
+   {
+    "t": "These are the ribbon tabs. Each tab holds a group of related tools, like Home, Insert and Layout.",
+    "h": [
+     34.0,
+     20.0,
+     290.0,
+     18.0
+    ]
+   },
+   {
+    "t": "Under the tabs is the ribbon. It shows the buttons for the tab you picked.",
+    "h": [
+     0.0,
+     38.0,
+     400.0,
+     54.0
+    ]
+   },
+   {
+    "t": "The white area is the page. Click here and start typing.",
+    "h": [
+     64.0,
+     98.0,
+     272.0,
+     138.0
+    ]
+   },
+   {
+    "t": "The status bar shows your page number and word count.",
+    "h": [
+     0.0,
+     240.0,
+     400.0,
+     20.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Type your first words",
+  "steps": [
+   {
+    "t": "Click anywhere on the white page. A blinking line appears. That is where your typing will go.",
+    "h": [
+     64.0,
+     98.0,
+     272.0,
+     138.0
+    ]
+   },
+   {
+    "t": "Type with the keyboard. Press Enter to start a new line or paragraph.",
+    "h": [
+     76.0,
+     114.0,
+     120.0,
+     18.0
+    ]
+   },
+   {
+    "t": "Press Backspace to delete the letter before the blinking line, and Delete to remove the one after it.",
+    "h": [
+     76.0,
+     114.0,
+     120.0,
+     18.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Select text quickly",
+  "steps": [
+   {
+    "t": "Drag across words to select them. Double-click one word to select just that word.",
+    "h": [
+     74.0,
+     112.0,
+     122.0,
+     19.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Press Ctrl + A to select everything in the document.",
+    "h": [
+     64.0,
+     98.0,
+     272.0,
+     138.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Click anywhere on the page to remove the selection.",
+    "h": [
+     64.0,
+     98.0,
+     272.0,
+     138.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Format your text",
+  "steps": [
+   {
+    "t": "Click and drag across the words you want to change. They turn blue when selected.",
+    "h": [
+     74.0,
+     112.0,
+     122.0,
+     19.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Click the Home tab to open the text tools.",
+    "h": [
+     34.0,
+     20.0,
+     34.0,
+     18.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Click B to make the selected text bold.",
+    "h": [
+     70.0,
+     62.0,
+     14.0,
+     14.0
+    ],
+    "sel": true,
+    "bold": true
+   },
+   {
+    "t": "I makes text italic and U underlines it. Try both.",
+    "h": [
+     88.0,
+     62.0,
+     32.0,
+     14.0
+    ],
+    "sel": true,
+    "bold": true
+   },
+   {
+    "t": "Use the size box to make text bigger or smaller.",
+    "h": [
+     134.0,
+     44.0,
+     22.0,
+     12.0
+    ],
+    "sel": true,
+    "bold": true
+   }
+  ]
+ },
+ {
+  "title": "Insert a table",
+  "steps": [
+   {
+    "t": "Click the Insert tab.",
+    "h": [
+     70.0,
+     20.0,
+     38.0,
+     18.0
+    ]
+   },
+   {
+    "t": "The Insert ribbon is now showing. Find the Table button.",
+    "h": [
+     10.0,
+     44.0,
+     36.0,
+     42.0
+    ],
+    "tab": "insert"
+   },
+   {
+    "t": "Click Table, then drag across the grid to pick how many rows and columns you need.",
+    "h": [
+     10.0,
+     90.0,
+     68.0,
+     58.0
+    ],
+    "tab": "insert",
+    "pop": true
+   },
+   {
+    "t": "Let go of the mouse. Your table appears on the page, ready for typing.",
+    "h": [
+     76.0,
+     138.0,
+     150.0,
+     48.0
+    ],
+    "tab": "insert",
+    "tbl": true
+   }
+  ]
+ },
+ {
+  "title": "Align your text",
+  "steps": [
+   {
+    "t": "Select the words you want to move. They turn blue.",
+    "h": [
+     74.0,
+     112.0,
+     122.0,
+     19.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Click the Center button. The text moves to the middle of the page.",
+    "h": [
+     228.0,
+     62.0,
+     14.0,
+     14.0
+    ],
+    "al": "c",
+    "sel": true
+   },
+   {
+    "t": "Click Align Right to push the text to the right edge.",
+    "h": [
+     246.0,
+     62.0,
+     14.0,
+     14.0
+    ],
+    "al": "r",
+    "sel": true
+   },
+   {
+    "t": "Click Align Left to bring it back. Left is the normal position for most documents.",
+    "h": [
+     210.0,
+     62.0,
+     14.0,
+     14.0
+    ],
+    "sel": true
+   }
+  ]
+ },
+ {
+  "title": "Bullets and numbering",
+  "steps": [
+   {
+    "t": "Type each item on its own line, then drag across them to select the whole list.",
+    "h": [
+     76.0,
+     134.0,
+     100.0,
+     44.0
+    ],
+    "bul": 3
+   },
+   {
+    "t": "Click the Bullets button on the Home tab to turn the list into bullet points.",
+    "h": [
+     210.0,
+     46.0,
+     14.0,
+     14.0
+    ],
+    "bul": 1
+   },
+   {
+    "t": "Click Numbering instead to number the list 1, 2, 3.",
+    "h": [
+     228.0,
+     46.0,
+     14.0,
+     14.0
+    ],
+    "bul": 2
+   }
+  ]
+ },
+ {
+  "title": "Insert a picture",
+  "steps": [
+   {
+    "t": "Click the Insert tab.",
+    "h": [
+     70.0,
+     20.0,
+     38.0,
+     18.0
+    ]
+   },
+   {
+    "t": "Click Pictures to browse for a photo saved on your computer.",
+    "h": [
+     52.0,
+     44.0,
+     36.0,
+     42.0
+    ],
+    "tab": "insert"
+   },
+   {
+    "t": "Choose your picture and click Insert. It appears on the page.",
+    "h": [
+     76.0,
+     138.0,
+     100.0,
+     64.0
+    ],
+    "tab": "insert",
+    "pic": true
+   }
+  ]
+ },
+ {
+  "title": "Undo and redo",
+  "steps": [
+   {
+    "t": "Made a mistake? Click Undo to take back your last action.",
+    "h": [
+     22.0,
+     3.0,
+     13.0,
+     15.0
+    ]
+   },
+   {
+    "t": "Click Redo to bring back what you just undid.",
+    "h": [
+     34.0,
+     3.0,
+     13.0,
+     15.0
+    ]
+   },
+   {
+    "t": "A faster way: hold Ctrl and press Z to undo, or Ctrl + Y to redo.",
+    "h": [
+     5.0,
+     3.0,
+     44.0,
+     15.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Check your spelling",
+  "steps": [
+   {
+    "t": "Click the Review tab.",
+    "h": [
+     239.0,
+     20.0,
+     36.0,
+     18.0
+    ]
+   },
+   {
+    "t": "Click Spelling. Word checks your document and shows each mistake it finds.",
+    "h": [
+     10.0,
+     44.0,
+     44.0,
+     42.0
+    ],
+    "tab": "review"
+   },
+   {
+    "t": "A red line under a word means Word thinks it is spelled wrong. Right-click it to see suggestions.",
+    "h": [
+     138.0,
+     112.0,
+     34.0,
+     22.0
+    ],
+    "tab": "review",
+    "sq": true
+   }
+  ]
+ },
+ {
+  "title": "Change the font",
+  "steps": [
+   {
+    "t": "Select the words you want to change.",
+    "h": [
+     74.0,
+     112.0,
+     122.0,
+     19.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Click the font name box to see a list of fonts, such as Calibri, Arial and Times New Roman.",
+    "h": [
+     70.0,
+     44.0,
+     60.0,
+     12.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Pick a font from the list. The selected words change at once.",
+    "h": [
+     70.0,
+     44.0,
+     60.0,
+     12.0
+    ],
+    "sel": true
+   }
+  ]
+ },
+ {
+  "title": "Justify your text",
+  "steps": [
+   {
+    "t": "Justify spreads each line evenly from the left edge to the right edge, like in a book.",
+    "h": [
+     264.0,
+     62.0,
+     14.0,
+     14.0
+    ]
+   },
+   {
+    "t": "Select your paragraph, then click Justify.",
+    "h": [
+     264.0,
+     62.0,
+     14.0,
+     14.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Click Align Left again if you want the usual uneven right edge.",
+    "h": [
+     210.0,
+     62.0,
+     14.0,
+     14.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Copy and paste",
+  "steps": [
+   {
+    "t": "Select the text you want to copy.",
+    "h": [
+     74.0,
+     112.0,
+     122.0,
+     19.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Press Ctrl + C to copy it. Nothing seems to change, but Word has remembered the text.",
+    "h": [
+     74.0,
+     112.0,
+     122.0,
+     19.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Click where you want the copy to go, then click Paste on the Home tab, or press Ctrl + V.",
+    "h": [
+     12.0,
+     44.0,
+     22.0,
+     26.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Draw a shape",
+  "steps": [
+   {
+    "t": "Click the Insert tab.",
+    "h": [
+     70.0,
+     20.0,
+     38.0,
+     18.0
+    ]
+   },
+   {
+    "t": "Click Shapes to see rectangles, circles, arrows and more.",
+    "h": [
+     94.0,
+     44.0,
+     36.0,
+     42.0
+    ],
+    "tab": "insert"
+   },
+   {
+    "t": "Choose a shape, then drag on the page to draw it.",
+    "h": [
+     76.0,
+     138.0,
+     80.0,
+     48.0
+    ],
+    "tab": "insert",
+    "shp": true
+   }
+  ]
+ },
+ {
+  "title": "Count your words",
+  "steps": [
+   {
+    "t": "The status bar always shows how many words you have typed.",
+    "h": [
+     0.0,
+     240.0,
+     200.0,
+     20.0
+    ]
+   },
+   {
+    "t": "For more detail, click the Review tab.",
+    "h": [
+     239.0,
+     20.0,
+     36.0,
+     18.0
+    ]
+   },
+   {
+    "t": "Click Word Count to see words, characters, paragraphs and lines.",
+    "h": [
+     60.0,
+     44.0,
+     44.0,
+     42.0
+    ],
+    "tab": "review"
+   }
+  ]
+ },
+ {
+  "title": "Find better words",
+  "steps": [
+   {
+    "t": "Select a word you want to replace.",
+    "h": [
+     74.0,
+     112.0,
+     122.0,
+     19.0
+    ],
+    "sel": true
+   },
+   {
+    "t": "Click the Review tab, then click Thesaurus.",
+    "h": [
+     110.0,
+     44.0,
+     44.0,
+     42.0
+    ],
+    "tab": "review",
+    "sel": true
+   },
+   {
+    "t": "Word shows words with a similar meaning. Click one to use it.",
+    "h": [
+     110.0,
+     44.0,
+     44.0,
+     42.0
+    ],
+    "tab": "review",
+    "sel": true
+   }
+  ]
+ },
+ {
+  "title": "Zoom in and out",
+  "steps": [
+   {
+    "t": "Zoom makes the page look bigger or smaller without changing your document.",
+    "h": [
+     284.0,
+     241.0,
+     112.0,
+     18.0
+    ]
+   },
+   {
+    "t": "Slide to the right to zoom in, and to the left to zoom out.",
+    "h": [
+     298.0,
+     244.0,
+     60.0,
+     12.0
+    ]
+   },
+   {
+    "t": "Click the plus and minus buttons for small steps.",
+    "h": [
+     284.0,
+     241.0,
+     112.0,
+     18.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "The File tab",
+  "steps": [
+   {
+    "t": "Click File to open the menu for your whole document.",
+    "h": [
+     0.0,
+     20.0,
+     32.0,
+     18.0
+    ]
+   },
+   {
+    "t": "From there you can start a new document, open one, save, print and share.",
+    "h": [
+     0.0,
+     20.0,
+     32.0,
+     18.0
+    ]
+   },
+   {
+    "t": "Click the arrow at the top left of that menu to come back to your page.",
+    "h": [
+     0.0,
+     20.0,
+     32.0,
+     18.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Save your work",
+  "steps": [
+   {
+    "t": "Save often so you never lose your work. Click the Save icon.",
+    "h": [
+     5.0,
+     3.0,
+     16.0,
+     15.0
+    ]
+   },
+   {
+    "t": "The first time, Word asks for a name. Type a name you will remember, like Letter to Ade.",
+    "h": [
+     100.0,
+     2.0,
+     200.0,
+     16.0
+    ]
+   },
+   {
+    "t": "Choose where to keep it, then click Save. After that, the Save icon updates the same file.",
+    "h": [
+     5.0,
+     3.0,
+     16.0,
+     15.0
+    ]
+   }
+  ]
+ }
+]
