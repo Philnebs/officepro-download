@@ -8,6 +8,6 @@
   "downloadLink": "",
   "notice": "",
   "lessonBase": "https://raw.githubusercontent.com/Philnebs/officepro-download/refs/heads/main/lessons/",
-  "lessonVersions": { "word": 1, "excel": 1, "powerpoint": 1, "coreldraw": 1, "database": 1 },
+  "lessonVersions": { "word": 2, "excel": 1, "powerpoint": 1, "coreldraw": 1, "database": 1 },
   "lessonParts": { "word": 1, "excel": 1, "powerpoint": 1, "coreldraw": 1, "database": 1 }
 }
