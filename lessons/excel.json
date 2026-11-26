@@ -1,0 +1,1031 @@
+[
+ {
+  "title": "Meet the Excel screen",
+  "steps": [
+   {
+    "t": "This is the Excel window. The title bar shows the name of your workbook.",
+    "h": [
+     100.0,
+     2.0,
+     200.0,
+     16.0
+    ]
+   },
+   {
+    "t": "The ribbon tabs hold the tools. Home has everyday tools, Insert is for charts and tables, and Formulas is for calculations.",
+    "h": [
+     34.0,
+     20.0,
+     250.0,
+     18.0
+    ]
+   },
+   {
+    "t": "The Name Box shows which cell you are in. Right now it is A1.",
+    "h": [
+     4.0,
+     94.0,
+     46.0,
+     12.0
+    ],
+    "cel": "A1"
+   },
+   {
+    "t": "The formula bar shows what is inside the selected cell.",
+    "h": [
+     70.0,
+     94.0,
+     326.0,
+     12.0
+    ]
+   },
+   {
+    "t": "This grid of boxes is the worksheet. Each box is a cell, and that is where you type.",
+    "h": [
+     20.0,
+     118.0,
+     360.0,
+     104.0
+    ]
+   },
+   {
+    "t": "Sheet1 is a sheet tab. One workbook can hold many sheets.",
+    "h": [
+     4.0,
+     223.0,
+     44.0,
+     16.0
+    ]
+   },
+   {
+    "t": "The status bar shows Ready, and it also adds up numbers you select.",
+    "h": [
+     0.0,
+     240.0,
+     200.0,
+     20.0
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Cells, rows and columns",
+  "steps": [
+   {
+    "t": "Columns run across the top and are named with letters: A, B, C.",
+    "h": [
+     20.0,
+     106.0,
+     360.0,
+     12.0
+    ]
+   },
+   {
+    "t": "Rows run down the side and are named with numbers: 1, 2, 3.",
+    "h": [
+     0.0,
+     118.0,
+     20.0,
+     104.0
+    ]
+   },
+   {
+    "t": "A cell address is its column letter plus its row number. This cell is B3.",
+    "h": [
+     80.0,
+     144.0,
+     60.0,
+     13.0
+    ],
+    "cel": "B3"
+   }
+  ]
+ },
+ {
+  "title": "Type data into cells",
+  "steps": [
+   {
+    "t": "Click cell A1 to select it.",
+    "h": [
+     20.0,
+     118.0,
+     60.0,
+     13.0
+    ],
+    "cel": "A1"
+   },
+   {
+    "t": "Type Name, press Tab to move right, and type Maths.",
+    "h": [
+     80.0,
+     118.0,
+     60.0,
+     13.0
+    ],
+    "cel": "B1",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths"
+    }
+   },
+   {
+    "t": "Press Enter to finish. Excel moves down so you can keep typing.",
+    "h": [
+     20.0,
+     131.0,
+     60.0,
+     13.0
+    ],
+    "cel": "A2",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "A2": "Ada"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Select cells",
+  "steps": [
+   {
+    "t": "Click a cell to select one cell.",
+    "h": [
+     80.0,
+     131.0,
+     60.0,
+     13.0
+    ],
+    "cel": "B2",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Drag from one cell to another to select a range. This range is B2 to B4.",
+    "h": [
+     80.0,
+     131.0,
+     60.0,
+     39.0
+    ],
+    "cel": "B2:B4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Click a column letter to select the whole column.",
+    "h": [
+     140.0,
+     106.0,
+     60.0,
+     12.0
+    ],
+    "cel": "C1:C8",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Bold text and font size",
+  "steps": [
+   {
+    "t": "Select the cells you want to change. Here, the headings A1 to D1.",
+    "h": [
+     20.0,
+     118.0,
+     240.0,
+     13.0
+    ],
+    "cel": "A1:D1",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Click the Home tab.",
+    "h": [
+     34.0,
+     20.0,
+     34.0,
+     18.0
+    ],
+    "cel": "A1:D1",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Click B to make the headings bold.",
+    "h": [
+     50.0,
+     62.0,
+     14.0,
+     14.0
+    ],
+    "cel": "A1:D1",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Use the size box to make text bigger or smaller.",
+    "h": [
+     104.0,
+     44.0,
+     20.0,
+     12.0
+    ],
+    "cel": "A1:D1",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Fill color and borders",
+  "steps": [
+   {
+    "t": "Select the cells you want to decorate.",
+    "h": [
+     20.0,
+     118.0,
+     240.0,
+     52.0
+    ],
+    "cel": "A1:D4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Click the paint bucket arrow (Fill Color) and pick a color.",
+    "h": [
+     114.0,
+     62.0,
+     14.0,
+     14.0
+    ],
+    "cel": "A1:D4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Click Borders to draw lines around your cells.",
+    "h": [
+     98.0,
+     62.0,
+     14.0,
+     14.0
+    ],
+    "cel": "A1:D4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Widen a column",
+  "steps": [
+   {
+    "t": "If words are cut off, the column is too narrow.",
+    "h": [
+     20.0,
+     118.0,
+     60.0,
+     52.0
+    ],
+    "cel": "A1:A4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Point at the line between two column letters until the cursor becomes a double arrow.",
+    "h": [
+     75.0,
+     106.0,
+     10.0,
+     12.0
+    ],
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Double-click the line to fit the contents, or drag it to the width you want.",
+    "h": [
+     75.0,
+     106.0,
+     10.0,
+     12.0
+    ],
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Number formats",
+  "steps": [
+   {
+    "t": "Select the numbers you want to format.",
+    "h": [
+     80.0,
+     131.0,
+     120.0,
+     39.0
+    ],
+    "cel": "B2:C4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Click the box that says General to choose Currency, Percentage, Date and more.",
+    "h": [
+     200.0,
+     44.0,
+     50.0,
+     12.0
+    ],
+    "cel": "B2:C4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "The % button turns a number into a percentage.",
+    "h": [
+     200.0,
+     62.0,
+     14.0,
+     14.0
+    ],
+    "cel": "B2:C4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Your first formula",
+  "steps": [
+   {
+    "t": "Click the cell where you want the answer. Here we use D2.",
+    "h": [
+     200.0,
+     131.0,
+     60.0,
+     13.0
+    ],
+    "cel": "D2",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Type an equals sign first, then B2+C2. Every formula starts with =.",
+    "h": [
+     70.0,
+     94.0,
+     326.0,
+     12.0
+    ],
+    "cel": "D2",
+    "fx": "=B2+C2",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90",
+     "D2": "=B2+C2"
+    }
+   },
+   {
+    "t": "Press Enter. Excel shows the answer, 135, in the cell.",
+    "h": [
+     200.0,
+     131.0,
+     60.0,
+     13.0
+    ],
+    "cel": "D3",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90",
+     "D2": "135"
+    }
+   }
+  ]
+ },
+ {
+  "title": "AutoSum",
+  "steps": [
+   {
+    "t": "Click the cell under the numbers you want to add.",
+    "h": [
+     80.0,
+     170.0,
+     60.0,
+     13.0
+    ],
+    "cel": "B5",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "On the Home tab, click AutoSum. It is the symbol that looks like a sideways M.",
+    "h": [
+     270.0,
+     44.0,
+     30.0,
+     26.0
+    ],
+    "cel": "B5",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Excel suggests the total. Press Enter to accept it.",
+    "h": [
+     80.0,
+     170.0,
+     60.0,
+     13.0
+    ],
+    "cel": "B5",
+    "fx": "=SUM(B2:B4)",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90",
+     "B5": "=SUM(B2:B4)"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Copy a formula down",
+  "steps": [
+   {
+    "t": "Select the cell that has the formula you want to copy.",
+    "h": [
+     200.0,
+     131.0,
+     60.0,
+     13.0
+    ],
+    "cel": "D2",
+    "fx": "=B2+C2",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90",
+     "D2": "135",
+     "D3": "165",
+     "D4": "145"
+    }
+   },
+   {
+    "t": "Point at the small square in the bottom-right corner of the cell. This is the fill handle.",
+    "h": [
+     254.0,
+     138.0,
+     10.0,
+     10.0
+    ],
+    "cel": "D2",
+    "fx": "=B2+C2",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90",
+     "D2": "135",
+     "D3": "165",
+     "D4": "145"
+    }
+   },
+   {
+    "t": "Drag the fill handle down. Excel copies the formula and adjusts it for each row.",
+    "h": [
+     200.0,
+     131.0,
+     60.0,
+     39.0
+    ],
+    "cel": "D2:D4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90",
+     "D2": "135",
+     "D3": "165",
+     "D4": "145"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Sort your data",
+  "steps": [
+   {
+    "t": "Select the data you want to sort, including the headings.",
+    "h": [
+     20.0,
+     118.0,
+     240.0,
+     52.0
+    ],
+    "cel": "A1:D4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90",
+     "D2": "135",
+     "D3": "165",
+     "D4": "145"
+    }
+   },
+   {
+    "t": "Click the Data tab.",
+    "h": [
+     202.0,
+     20.0,
+     26.0,
+     18.0
+    ],
+    "cel": "A1:D4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90",
+     "D2": "135",
+     "D3": "165",
+     "D4": "145"
+    }
+   },
+   {
+    "t": "Click Sort A to Z to put the data in order.",
+    "h": [
+     10.0,
+     44.0,
+     36.0,
+     42.0
+    ],
+    "tab": "data",
+    "cel": "A1:D4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90",
+     "D2": "135",
+     "D3": "165",
+     "D4": "145"
+    }
+   }
+  ]
+ },
+ {
+  "title": "Make a chart",
+  "steps": [
+   {
+    "t": "Select the data you want to chart.",
+    "h": [
+     20.0,
+     118.0,
+     120.0,
+     52.0
+    ],
+    "cel": "A1:B4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Click the Insert tab, then choose a chart such as Column.",
+    "h": [
+     52.0,
+     44.0,
+     36.0,
+     42.0
+    ],
+    "tab": "insert",
+    "cel": "A1:B4",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    }
+   },
+   {
+    "t": "Your chart appears on the worksheet. Drag it to move it, and drag its corners to resize it.",
+    "h": [
+     150.0,
+     140.0,
+     200.0,
+     82.0
+    ],
+    "tab": "insert",
+    "cells": {
+     "A1": "Name",
+     "B1": "Maths",
+     "C1": "English",
+     "D1": "Total",
+     "A2": "Ada",
+     "B2": "70",
+     "C2": "65",
+     "A3": "Bola",
+     "B3": "80",
+     "C3": "85",
+     "A4": "Chi",
+     "B4": "55",
+     "C4": "90"
+    },
+    "chart": true
+   }
+  ]
+ },
+ {
+  "title": "Save your workbook",
+  "steps": [
+   {
+    "t": "Click the Save icon, or press Ctrl + S.",
+    "h": [
+     5.0,
+     3.0,
+     16.0,
+     15.0
+    ]
+   },
+   {
+    "t": "Type a file name you will remember, like My Scores, and choose where to keep it.",
+    "h": [
+     100.0,
+     2.0,
+     200.0,
+     16.0
+    ]
+   },
+   {
+    "t": "Click Save. After that, save again now and then as you work.",
+    "h": [
+     5.0,
+     3.0,
+     16.0,
+     15.0
+    ]
+   }
+  ]
+ }
+]
